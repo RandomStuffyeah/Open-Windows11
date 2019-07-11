@@ -1,11 +1,7 @@
 // Open Windows 11
-findcpu AnyCpu
-orelse
-print "UNSUPPORTED CPU"
-then
-include "c:\openwindows\system32\bootsound.asm"
+include "c:\openwin\system32\bootsound.asm"
 iffound
-include "c:\openwindows\asm\sound.asm"
+include "c:\openwin\asm\sound.asm"
 iffound
 boot
 // Open Windows 11
